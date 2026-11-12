@@ -1,3 +1,5 @@
+/* Police Fredoka (licence libre OFL) servie par le site lui-même : aucun appel à un serveur tiers. */
+@font-face{font-family:"Fredoka";font-style:normal;font-weight:300 700;font-display:swap;src:url(fredoka.woff2) format("woff2")}
 
 :root{--sky1:#bfe4ff;--sky2:#eef7ff;--grass:#9fe08a;--grass2:#6cc46f;--ink:#2a2d4a;--muted:#6b7090;--violet:#6c5ce7;--violet-d:#4b3fc4;--mint:#2ec4b6;--mint-d:#1c9a8e;--sun:#ffd23f;--f:"Fredoka","Trebuchet MS",system-ui,sans-serif}
 *{box-sizing:border-box}body{margin:0;font-family:var(--f);color:var(--ink);background:#fff;font-size:18px;line-height:1.5}
