@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Page introuvable — Grignou</title>
+<meta name="description" content="Cette page n'existe pas ou a changé d'adresse. Retour à l'accueil de Grignou.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/icon-192.png">
+<link rel="stylesheet" href="/accueil.css">
+<style>
+.perdu{min-height:100vh;display:flex;flex-direction:column;padding-top:0}
+.perdu-contenu{flex:1 1 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px 48px;padding-top:140px;padding-bottom:60px}
+.perdu-texte{flex:0 1 480px;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.perdu h1{color:#fff;font-size:clamp(32px,5vw,54px)}
+.perdu .chapeau{color:#fff}
+.touche.jaune{background:var(--soleil);border-color:var(--soleil-f);color:var(--encre)}
+.touche.jaune:hover{background:#ffe07a;color:var(--encre)}
+.perdu-grignou{flex:0 0 auto;width:min(260px,70%);display:flex;flex-direction:column;align-items:center;gap:8px}
+</style>
+</head>
+<body>
+<div class="nuit perdu">
+  <div class="lune" aria-hidden="true"></div>
+  <img class="scintille s1" src="/img/etoile.svg" alt="" aria-hidden="true" width="22" height="22">
+  <img class="scintille s2" src="/img/etoile.svg" alt="" aria-hidden="true" width="30" height="30">
+  <img class="scintille s3" src="/img/etoile.svg" alt="" aria-hidden="true" width="20" height="20">
+  <img class="scintille s4" src="/img/etoile.svg" alt="" aria-hidden="true" width="16" height="16">
+  <main class="large perdu-contenu">
+    <div class="perdu-texte">
+      <h1>Oups, cette page s'est envolée.</h1>
+      <p class="chapeau">Elle n'existe pas, ou elle a changé d'adresse. Grignou vous ramène à l'accueil.</p>
+      <a class="touche jaune" href="/">Retour à l'accueil</a>
+    </div>
+    <div class="perdu-grignou">
+      <p class="bulle droite">Je ne la trouve pas non plus !</p>
+      <img class="berce" src="/img/grignou-crayon.svg" alt="Grignou, un petit dragon vert, cherche la page avec son crayon" width="260" height="260" style="margin:0;max-width:100%">
+    </div>
+  </main>
+</div>
+</body>
+</html>
